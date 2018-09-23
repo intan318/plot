@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.intanyoshanaoewen.plot.MainActivity"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#53b2cf"
+        android:layout_marginTop="30dp"
+        >
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="135dp"
+        android:layout_height="135dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logodoang" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/plotaja"
+        android:layout_width="185dp"
+        android:layout_height="125dp"
+        android:src="@drawable/plotaja"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:id="@+id/textPlot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Plot Your Own Journey!"
+        android:fontFamily="@font/abeakrg"
+        android:layout_below="@+id/plotaja"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Started!"
+        android:textSize="16sp"
+        android:fontFamily="@font/robotoregular"
+        android:textAllCaps="false"
+        android:backgroundTint="#53b2cf"
+        android:layout_below="@id/textPlot"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        />
+
+
+</RelativeLayout>
